@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amatic+SC:wght@700&display=swap');
+
+body{
+    background-color: #517C63 ;
+    width: 100%;
+    margin: auto;
+}
+
+header{
+    box-shadow: 0px 5px 20px black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f3f0e9;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    
+}
+
+ #logo{
+    width: 90px;
+    border-radius: 10px;
+    
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+ 
+ ul li a{
+    padding: 20px; 
+    text-decoration: none;
+    color: black; 
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+    display: block;
+    margin-right: 15px;
+}
+
+ul li a:hover{
+    background-color: #e7dfcf;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#imgs{
+    flex: 1 1 300px; 
+    margin: 30px;
+    margin-bottom: 10px;
+    padding: 60px;
+}
+#imgs img{
+    border-radius: 10px;
+    max-width: 100%;
+
+}
+
