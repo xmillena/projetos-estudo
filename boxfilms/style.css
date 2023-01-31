@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  margin: 0px;
+
+}
+
+img{
+  max-width: 200px;
+  min-width: 100px;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.page-title {
+  border: none;
+  padding: 10px;
+  background: yellow;
+  color: black;
+  
+    
+}
+
+.page-subtitle {
+  color: #ffffff;
+  font-size: 20px; 
+}
+
+.page-logo {
+  width: 200px;
+}
+
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 2px solid;
+  border-color: yellow;
+  color: #ffffff;
+  background: black;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.30 ease;
+}
+
+.form-wrapper button:hover {
+  color:yellow;
+  opacity: 0.8;
+  box-shadow: 0 0.5em 0.5em -0.4em yellow;
+  transform: translateY(-0.25em);
+}
