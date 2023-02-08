@@ -1,0 +1,31 @@
+
+main{
+    text-align: center;
+}
+h2, h4{
+    font-family: monospace;
+}
+#container{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#clickme{
+    font-size: 30px;
+    font-family:fantasy;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+     background-color: white;
+        
+}
+
+#clickme:hover{
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    
+}
