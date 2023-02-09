@@ -37,7 +37,13 @@ img{
   width: 200px;
 }
 
-
+#listaFilmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
 #listaFilmes img {
   margin: 10px;
   max-height: 250px;
